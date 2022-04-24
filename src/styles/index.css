@@ -10,3 +10,22 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600&display=swap');
+body {font-family: 'Playfair Display', serif;}
+
+.number {
+    border: 1px solid rgb(65, 65, 65);
+    font-size: 7rem;
+    font-weight: bold;
+    padding: 0px 15px;
+    margin: 0px 10px;
+}
+
+.card {
+    margin: auto;
+}
+
+.card-body {
+    max-width: 800px;
+}
+
